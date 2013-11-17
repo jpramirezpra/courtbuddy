@@ -35,21 +35,66 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/layers.min.css" >
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
     </head>
     <body>
 
-        <!-- Add your site or application content here -->
+        <!-- signIn, Log In -->
+
+        <div id="signIn" class='page activePage'>
+            <div id="background">
+                <div class="mask">
+                    <div id="fb-root"></div>
+                    <div class="column eight center">
+                        <img class="logo" src="img/logo.png">
+                    </div>
+
+                    <div id="facebooklogin" class="column four center">
+                        <a href="javascript:loginUser()"> 
+                            <i class="fa fa-facebook"></i>
+                            <span class="facbook">Connect with Facebook</span>
+                        </a>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div id="signUp" class="page">
+            this is a test
+            If you can see this it is a success
+
+
+        </div>
+
+
+        <!-- signIn, Log In -->
+        <div id="userHome">
+
+
+
+        </div>
+
 
         <script src="js/vendor/zepto.min.js"></script>
         <script src="js/helper.js"></script>
-
+        <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+        <script src="js/facebook.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-            g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
-            s.parentNode.insertBefore(g,s)}(document,"script"));
-        </script>
+<!---        
+
+
+// <script>
+        //     var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
+        //     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+        //     g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+        //     s.parentNode.insertBefore(g,s)}(document,"script"));
+        </script> -->
     </body>
 </html>
